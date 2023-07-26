@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/download"
+    tools:context=".checkbox">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="25dp"
+        android:text="Select Your Hobbies"
+        android:textStyle="italic"
+        android:id="@+id/txtView"/>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Dancing"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Cooking"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Painting"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Reading"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:onClick="onCheckboxClicked"/>
+
+    <Button
+        android:id="@+id/Btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:layout_margin="60dp"
+        android:onClick="Check"
+        android:text="submit">
+    </Button>
+</LinearLayout>
